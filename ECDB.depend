@@ -1,0 +1,141 @@
+# depslib dependency file v1.0
+1746807466 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\main.cpp
+	<iostream>
+	"System.h"
+	"Payment.h"
+	"orderItems.h"
+
+1746877178 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\system.h
+	"Customer.h"
+	"Product.h"
+	"Category.h"
+	"Order.h"
+	"DatabaseManager.h"
+
+1746822538 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\address.h
+	<iostream>
+	<string>
+
+1746807466 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\cart.h
+	<iostream>
+	<vector>
+	"cartItems.h"
+
+1746807466 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\cartitems.h
+	<iostream>
+	<vector>
+	"Product.h"
+
+1746876160 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\product.h
+	<iostream>
+	<string>
+	"Category.h"
+
+1746822963 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\category.h
+	<iostream>
+	<vector>
+	"Product.h"
+
+1746827373 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\customer.h
+	<string>
+	<vector>
+	"Cart.h"
+	"Address.h"
+	"Product.h"
+	"DatabaseManager.h"
+
+1746822963 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\order.h
+	<iostream>
+	<string>
+	<vector>
+	"Customer.h"
+	"orderItems.h"
+	"Shipping.h"
+	"Payment.h"
+
+1746832840 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\orderitems.h
+	<iostream>
+	<string>
+	<vector>
+	"Product.h"
+
+1746831505 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\shipping.h
+	<iostream>
+	<vector>
+
+1746832840 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\payment.h
+	<iostream>
+	<string>
+	"Address.h"
+	"Customer.h"
+	"Order.h"
+	"Product.h"
+
+1746827623 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\address.cpp
+	"Address.h"
+	<iostream>
+	<string>
+
+1746829008 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\cart.cpp
+	"Cart.h"
+	"Customer.h"
+	<iostream>
+	<vector>
+
+1746807466 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\cartitems.cpp
+	"cartItems.h"
+	<iostream>
+
+1746807466 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\category.cpp
+	"Category.h"
+
+1746827268 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\customer.cpp
+	"Customer.h"
+	<iostream>
+
+1746807466 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\order.cpp
+	"Order.h"
+
+1746832840 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\orderitems.cpp
+	"orderItems.h"
+
+1746832841 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\payment.cpp
+	<iostream>
+	<string>
+	"Payment.h"
+	"Address.h"
+	"Customer.h"
+
+1746876160 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\product.cpp
+	"Product.h"
+	<iostream>
+
+1746824395 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\shipping.cpp
+	"Shipping.h"
+
+1746875106 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\system.cpp
+	"System.h"
+
+1746875106 source:c:\users\engy1\onedrive\desktop\ecdb\ecdb\src\databasemanager.cpp
+	"DatabaseManager.h"
+	<iostream>
+	<sstream>
+
+1746875263 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\databasemanager.h
+	<sqlite3.h>
+	<string>
+	<vector>
+	"Customer.h"
+	"Product.h"
+	"Category.h"
+	"Cart.h"
+	"Order.h"
+	"Payment.h"
+	"Shipping.h"
+	"Address.h"
+	"cartItems.h"
+	"orderItems.h"
+
+1746822166 c:\users\engy1\onedrive\desktop\ecdb\ecdb\include\sqlite3.h
+	<stdarg.h>
+

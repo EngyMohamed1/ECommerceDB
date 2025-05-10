@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ECDB" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ECDB" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Users/engy1/OneDrive/Desktop/ECDB/ECDB/bin/Debug/sqlite3.dll" />
+					<Add directory="bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ECDB" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Users/engy1/OneDrive/Desktop/ECDB/ECDB/bin/Debug/sqlite3.dll" />
+			<Add directory="bin/Debug" />
+		</Linker>
+		<Unit filename="include/Address.h" />
+		<Unit filename="include/Cart.h" />
+		<Unit filename="include/Category.h" />
+		<Unit filename="include/Customer.h" />
+		<Unit filename="include/DatabaseManager.h" />
+		<Unit filename="include/Order.h" />
+		<Unit filename="include/Payment.h" />
+		<Unit filename="include/Product.h" />
+		<Unit filename="include/Shipping.h" />
+		<Unit filename="include/System.h" />
+		<Unit filename="include/cartItems.h" />
+		<Unit filename="include/orderItems.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Address.cpp" />
+		<Unit filename="src/Cart.cpp" />
+		<Unit filename="src/Category.cpp" />
+		<Unit filename="src/Customer.cpp" />
+		<Unit filename="src/DatabaseManager.cpp" />
+		<Unit filename="src/Order.cpp" />
+		<Unit filename="src/Payment.cpp" />
+		<Unit filename="src/Product.cpp" />
+		<Unit filename="src/Shipping.cpp" />
+		<Unit filename="src/System.cpp" />
+		<Unit filename="src/cartItems.cpp" />
+		<Unit filename="src/orderItems.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
